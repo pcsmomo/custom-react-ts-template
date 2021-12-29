@@ -2,7 +2,7 @@
   "name": "custom-react-ts-template",
   "version": "0.1.0",
   "description": "custom-react-ts-template",
-  "main": "index.js",
+  "main": "index.tsx",
   "scripts": {
     "dev": "webpack serve",
     "build": "webpack"
@@ -26,6 +26,8 @@
     "@babel/core": "^7.15.5",
     "@babel/preset-env": "^7.15.4",
     "@babel/preset-react": "^7.14.5",
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
     "autoprefixer": "^10.3.4",
     "babel-loader": "^8.2.2",
     "clean-webpack-plugin": "^4.0.0",

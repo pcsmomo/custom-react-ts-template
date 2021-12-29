@@ -22,6 +22,7 @@ Custom template set webpack, babel, eslint and so on.
          6. typescript
             - `npm install --save-dev typescript ts-loader`
             - `tsc --init`
+            - `npm install --save-dev @types/react @types/react-dom`
       3. Plugin
          1. TerserPlugin : Minimizing
          2. MiniCssExtractPlugin : extracts CSS into separate files
