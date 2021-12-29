@@ -19,6 +19,9 @@ Custom template set webpack, babel, eslint and so on.
             `npm install --save-dev postcss-loader autoprefixer`
          5. babel
             `npm install --save-dev @babel/core babel-loader @babel/preset-env @babel/preset-react`
+         6. typescript
+            - `npm install --save-dev typescript ts-loader`
+            - `tsc --init`
       3. Plugin
          1. TerserPlugin : Minimizing
          2. MiniCssExtractPlugin : extracts CSS into separate files
